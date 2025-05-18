@@ -112,6 +112,9 @@ pub mod usb;
 /// "ldr:shel" service definitions.
 pub mod ldr;
 
+/// "nfc:*" service definitions.
+pub mod nfc;
+
 /// "nfp:*" service definitions.
 pub mod nfp;
 
