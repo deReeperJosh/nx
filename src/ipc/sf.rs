@@ -546,6 +546,8 @@ pub mod psc;
 
 pub mod pm;
 
+pub mod nfc;
+
 pub mod nfp;
 
 pub mod mii;
