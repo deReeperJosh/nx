@@ -6,5 +6,5 @@ result_define_group!(RESULT_MODULE => {
     WrongDeviceState: 73,
     NFCDisabled: 80,
     TagNotFound: 97,
-    MifareAccessError: 288,
+    MifareAccessError: 288
 });
