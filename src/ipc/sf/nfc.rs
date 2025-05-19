@@ -144,9 +144,9 @@ ipc_sf_define_interface_trait! {
     }
 }
 
-ipc_sf_define_default_client_for_interface!(MifareManger);
+ipc_sf_define_default_client_for_interface!(MifareManager);
 ipc_sf_define_interface_trait! {
-    trait MifareManger {
+    trait MifareManager {
         create_user_interface [0, version::VersionInterval::all()]: () => (user_interface: Mifare) (user_interface: session_type!(Mifare));
     }
 }
