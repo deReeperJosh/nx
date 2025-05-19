@@ -5,6 +5,8 @@ use crate::version;
 
 use nx_derive::{Request, Response};
 
+pub mod rc;
+
 #[derive(Request, Response, Copy, Clone, PartialEq, Eq, Debug, Default)]
 #[repr(C)]
 pub struct DeviceHandle {
