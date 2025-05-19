@@ -1,14 +1,9 @@
 use crate::ipc::sf;
 use crate::ipc::sf::applet;
 use crate::ipc::sf::hid;
-use crate::util;
 use crate::version;
 
-use super::ncm;
-
 use nx_derive::{Request, Response};
-
-pub mod rc;
 
 #[derive(Request, Response, Copy, Clone, PartialEq, Eq, Debug, Default)]
 #[repr(C)]
