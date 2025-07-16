@@ -46,7 +46,7 @@ pub struct TagInfo {
 }
 const_assert!(core::mem::size_of::<TagInfo>() == 0x58);
 
-define_bit_enum! {
+define_bit_set! {
     Protocol (u32) {
         None = bit!(0),
         TypeA = bit!(1),
@@ -56,7 +56,7 @@ define_bit_enum! {
     }
 }
 
-define_bit_enum! {
+define_bit_set! {
     TagType (u32) {
         None = bit!(0),
         Type1 = bit!(1),
